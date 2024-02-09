@@ -1,0 +1,775 @@
+Sun, 26 Nov 2023 20:55:52 GMT
+catchAll error
+Stack: Error: ER_BAD_FIELD_ERROR: Unknown column 'phoneNumber' in 'where clause'
+    at Query.Sequence._packetToError (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12)
+    --------------------
+    at Pool.query (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Pool.js:199:23)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:14:16
+    at new Promise (<anonymous>)
+    at Object.execute (M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:13:10)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:61:27
+    at step (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:33:23)
+    at Object.next (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:14:53)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:4:12)
+----------------------------------------------------------------------------------------------------
+Sun, 26 Nov 2023 20:58:04 GMT
+catchAll error
+Stack: Error: ER_BAD_FIELD_ERROR: Unknown column 'phoneNumber' in 'where clause'
+    at Query.Sequence._packetToError (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12)
+    --------------------
+    at Pool.query (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Pool.js:199:23)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:14:16
+    at new Promise (<anonymous>)
+    at Object.execute (M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:13:10)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:61:27
+    at step (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:33:23)
+    at Object.next (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:14:53)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:4:12)
+----------------------------------------------------------------------------------------------------
+Tue, 02 Jan 2024 12:18:15 GMT
+catchAll error
+Stack: Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+    at Query.Sequence._packetToError (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12)
+    --------------------
+    at Pool.query (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Pool.js:199:23)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:14:16
+    at new Promise (<anonymous>)
+    at Object.execute (M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:13:10)
+    at Object.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:59:27)
+    at step (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:33:23)
+    at Object.next (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:14:53)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:4:12)
+----------------------------------------------------------------------------------------------------
+Tue, 02 Jan 2024 12:19:26 GMT
+catchAll error
+Stack: Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+    at Query.Sequence._packetToError (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12)
+    --------------------
+    at Pool.query (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Pool.js:199:23)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:14:16
+    at new Promise (<anonymous>)
+    at Object.execute (M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:13:10)
+    at Object.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:61:27)
+    at step (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:33:23)
+    at Object.next (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:14:53)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:4:12)
+----------------------------------------------------------------------------------------------------
+Tue, 02 Jan 2024 12:19:47 GMT
+catchAll error
+Stack: Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+    at Query.Sequence._packetToError (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12)
+    --------------------
+    at Pool.query (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Pool.js:199:23)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:14:16
+    at new Promise (<anonymous>)
+    at Object.execute (M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:13:10)
+    at Object.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:61:27)
+    at step (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:33:23)
+    at Object.next (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:14:53)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:4:12)
+----------------------------------------------------------------------------------------------------
+Tue, 02 Jan 2024 12:21:41 GMT
+catchAll error
+Stack: Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+    at Query.Sequence._packetToError (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12)
+    --------------------
+    at Pool.query (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Pool.js:199:23)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:14:16
+    at new Promise (<anonymous>)
+    at Object.execute (M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:13:10)
+    at Object.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:61:27)
+    at step (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:33:23)
+    at Object.next (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:14:53)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:4:12)
+----------------------------------------------------------------------------------------------------
+Tue, 02 Jan 2024 12:22:28 GMT
+catchAll error
+Stack: Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+    at Query.Sequence._packetToError (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12)
+    --------------------
+    at Pool.query (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Pool.js:199:23)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:14:16
+    at new Promise (<anonymous>)
+    at Object.execute (M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:13:10)
+    at Object.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:61:27)
+    at step (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:33:23)
+    at Object.next (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:14:53)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:4:12)
+----------------------------------------------------------------------------------------------------
+Tue, 02 Jan 2024 12:22:58 GMT
+catchAll error
+Stack: Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+    at Query.Sequence._packetToError (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12)
+    --------------------
+    at Pool.query (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Pool.js:199:23)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:14:16
+    at new Promise (<anonymous>)
+    at Object.execute (M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:13:10)
+    at Object.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:61:27)
+    at step (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:33:23)
+    at Object.next (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:14:53)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:4:12)
+----------------------------------------------------------------------------------------------------
+Tue, 02 Jan 2024 12:23:17 GMT
+catchAll error
+Stack: Error: ER_BAD_FIELD_ERROR: Unknown column 'phone' in 'where clause'
+    at Query.Sequence._packetToError (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12)
+    --------------------
+    at Pool.query (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Pool.js:199:23)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:14:16
+    at new Promise (<anonymous>)
+    at Object.execute (M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:13:10)
+    at Object.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:61:27)
+    at step (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:33:23)
+    at Object.next (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:14:53)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:4:12)
+----------------------------------------------------------------------------------------------------
+Tue, 02 Jan 2024 16:23:15 GMT
+catchAll error
+Stack: Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?)' at line 1
+    at Query.Sequence._packetToError (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12)
+    --------------------
+    at Pool.query (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Pool.js:199:23)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:14:16
+    at new Promise (<anonymous>)
+    at Object.execute (M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:13:10)
+    at Object.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:21:36)
+    at step (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:33:23)
+    at Object.next (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:14:53)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:4:12)
+----------------------------------------------------------------------------------------------------
+Thu, 04 Jan 2024 17:03:28 GMT
+catchAll error
+Stack: Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+    at Query.Sequence._packetToError (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12)
+    --------------------
+    at Pool.query (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Pool.js:199:23)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:14:16
+    at new Promise (<anonymous>)
+    at Object.execute (M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:13:10)
+    at Object.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:61:27)
+    at step (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:33:23)
+    at Object.next (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:14:53)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:4:12)
+----------------------------------------------------------------------------------------------------
+Thu, 04 Jan 2024 17:03:55 GMT
+catchAll error
+Stack: Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+    at Query.Sequence._packetToError (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12)
+    --------------------
+    at Pool.query (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Pool.js:199:23)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:14:16
+    at new Promise (<anonymous>)
+    at Object.execute (M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:13:10)
+    at Object.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:61:27)
+    at step (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:33:23)
+    at Object.next (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:14:53)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:4:12)
+----------------------------------------------------------------------------------------------------
+Thu, 04 Jan 2024 17:05:18 GMT
+catchAll error
+Stack: Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+    at Query.Sequence._packetToError (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12)
+    --------------------
+    at Pool.query (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Pool.js:199:23)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:14:16
+    at new Promise (<anonymous>)
+    at Object.execute (M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:13:10)
+    at Object.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:61:27)
+    at step (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:33:23)
+    at Object.next (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:14:53)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:4:12)
+----------------------------------------------------------------------------------------------------
+Thu, 04 Jan 2024 17:05:26 GMT
+catchAll error
+Stack: Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+    at Query.Sequence._packetToError (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12)
+    --------------------
+    at Pool.query (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Pool.js:199:23)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:14:16
+    at new Promise (<anonymous>)
+    at Object.execute (M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:13:10)
+    at Object.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:61:27)
+    at step (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:33:23)
+    at Object.next (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:14:53)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:4:12)
+----------------------------------------------------------------------------------------------------
+Thu, 04 Jan 2024 17:05:38 GMT
+catchAll error
+Stack: Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+    at Query.Sequence._packetToError (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12)
+    --------------------
+    at Pool.query (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Pool.js:199:23)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:14:16
+    at new Promise (<anonymous>)
+    at Object.execute (M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:13:10)
+    at Object.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:61:27)
+    at step (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:33:23)
+    at Object.next (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:14:53)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:4:12)
+----------------------------------------------------------------------------------------------------
+Thu, 04 Jan 2024 17:21:06 GMT
+catchAll error
+Stack: Error: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12)
+    --------------------
+    at Pool.query (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Pool.js:199:23)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:14:16
+    at new Promise (<anonymous>)
+    at Object.execute (M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:13:10)
+    at Object.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:60:27)
+    at step (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:33:23)
+    at Object.next (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:14:53)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:4:12)
+----------------------------------------------------------------------------------------------------
+Thu, 04 Jan 2024 17:21:11 GMT
+catchAll error
+Stack: Error: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12)
+    --------------------
+    at Pool.query (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Pool.js:199:23)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:14:16
+    at new Promise (<anonymous>)
+    at Object.execute (M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:13:10)
+    at Object.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:60:27)
+    at step (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:33:23)
+    at Object.next (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:14:53)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:4:12)
+----------------------------------------------------------------------------------------------------
+Thu, 04 Jan 2024 17:38:10 GMT
+catchAll error
+Stack: Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''users' WHERE 'phoneNumber' = NULL' at line 1
+    at Query.Sequence._packetToError (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12)
+    --------------------
+    at Pool.query (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Pool.js:199:23)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:14:16
+    at new Promise (<anonymous>)
+    at Object.execute (M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:13:10)
+    at Object.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:60:27)
+    at step (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:33:23)
+    at Object.next (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:14:53)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:4:12)
+----------------------------------------------------------------------------------------------------
+Thu, 04 Jan 2024 17:38:12 GMT
+catchAll error
+Stack: Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''users' WHERE 'phoneNumber' = NULL' at line 1
+    at Query.Sequence._packetToError (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12)
+    --------------------
+    at Pool.query (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Pool.js:199:23)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:14:16
+    at new Promise (<anonymous>)
+    at Object.execute (M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:13:10)
+    at Object.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:60:27)
+    at step (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:33:23)
+    at Object.next (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:14:53)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:4:12)
+----------------------------------------------------------------------------------------------------
+Thu, 04 Jan 2024 17:38:32 GMT
+catchAll error
+Stack: Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''users' WHERE 'phoneNumber' = 'NULL'' at line 1
+    at Query.Sequence._packetToError (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12)
+    --------------------
+    at Pool.query (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Pool.js:199:23)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:14:16
+    at new Promise (<anonymous>)
+    at Object.execute (M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:13:10)
+    at Object.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:60:27)
+    at step (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:33:23)
+    at Object.next (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:14:53)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:4:12)
+----------------------------------------------------------------------------------------------------
+Thu, 04 Jan 2024 17:39:10 GMT
+catchAll error
+Stack: Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''users' WHERE 'phoneNumber' = 0504082139' at line 1
+    at Query.Sequence._packetToError (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12)
+    --------------------
+    at Pool.query (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Pool.js:199:23)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:14:16
+    at new Promise (<anonymous>)
+    at Object.execute (M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:13:10)
+    at Object.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:60:27)
+    at step (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:33:23)
+    at Object.next (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:14:53)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:4:12)
+----------------------------------------------------------------------------------------------------
+Thu, 04 Jan 2024 17:39:11 GMT
+catchAll error
+Stack: Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''users' WHERE 'phoneNumber' = 0504082139' at line 1
+    at Query.Sequence._packetToError (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12)
+    --------------------
+    at Pool.query (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Pool.js:199:23)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:14:16
+    at new Promise (<anonymous>)
+    at Object.execute (M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:13:10)
+    at Object.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:60:27)
+    at step (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:33:23)
+    at Object.next (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:14:53)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:4:12)
+----------------------------------------------------------------------------------------------------
+Thu, 04 Jan 2024 17:39:11 GMT
+catchAll error
+Stack: Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''users' WHERE 'phoneNumber' = 0504082139' at line 1
+    at Query.Sequence._packetToError (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12)
+    --------------------
+    at Pool.query (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Pool.js:199:23)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:14:16
+    at new Promise (<anonymous>)
+    at Object.execute (M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:13:10)
+    at Object.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:60:27)
+    at step (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:33:23)
+    at Object.next (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:14:53)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:4:12)
+----------------------------------------------------------------------------------------------------
+Thu, 04 Jan 2024 17:39:15 GMT
+catchAll error
+Stack: Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''users' WHERE 'phoneNumber' = 0504082139' at line 1
+    at Query.Sequence._packetToError (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12)
+    --------------------
+    at Pool.query (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Pool.js:199:23)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:14:16
+    at new Promise (<anonymous>)
+    at Object.execute (M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:13:10)
+    at Object.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:60:27)
+    at step (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:33:23)
+    at Object.next (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:14:53)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:4:12)
+----------------------------------------------------------------------------------------------------
+Thu, 04 Jan 2024 17:40:24 GMT
+catchAll error
+Stack: Error: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12)
+    --------------------
+    at Pool.query (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Pool.js:199:23)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:14:16
+    at new Promise (<anonymous>)
+    at Object.execute (M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:13:10)
+    at Object.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:60:27)
+    at step (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:33:23)
+    at Object.next (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:14:53)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:4:12)
+----------------------------------------------------------------------------------------------------
+Thu, 04 Jan 2024 17:40:39 GMT
+catchAll error
+Stack: Error: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12)
+    --------------------
+    at Pool.query (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Pool.js:199:23)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:14:16
+    at new Promise (<anonymous>)
+    at Object.execute (M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:13:10)
+    at Object.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:61:27)
+    at step (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:33:23)
+    at Object.next (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:14:53)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:4:12)
+----------------------------------------------------------------------------------------------------
+Thu, 04 Jan 2024 17:41:12 GMT
+catchAll error
+Stack: Error: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12)
+    --------------------
+    at Pool.query (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Pool.js:199:23)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:14:16
+    at new Promise (<anonymous>)
+    at Object.execute (M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:13:10)
+    at Object.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:61:27)
+    at step (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:33:23)
+    at Object.next (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:14:53)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:4:12)
+----------------------------------------------------------------------------------------------------
+Thu, 04 Jan 2024 17:41:46 GMT
+catchAll error
+Stack: Error: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12)
+    --------------------
+    at Pool.query (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Pool.js:199:23)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:14:16
+    at new Promise (<anonymous>)
+    at Object.execute (M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:13:10)
+    at Object.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:61:27)
+    at step (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:33:23)
+    at Object.next (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:14:53)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:4:12)
+----------------------------------------------------------------------------------------------------
+Thu, 04 Jan 2024 20:33:17 GMT
+catchAll error
+Stack: Error: ER_BAD_FIELD_ERROR: Unknown column 'phone' in 'where clause'
+    at Query.Sequence._packetToError (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12)
+    --------------------
+    at Pool.query (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Pool.js:199:23)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:14:16
+    at new Promise (<anonymous>)
+    at Object.execute (M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:13:10)
+    at Object.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:35:13)
+    at step (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:33:23)
+    at Object.next (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:14:53)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:4:12)
+----------------------------------------------------------------------------------------------------
+Thu, 04 Jan 2024 20:34:16 GMT
+catchAll error
+Stack: Error: ER_BAD_FIELD_ERROR: Unknown column 'phone' in 'where clause'
+    at Query.Sequence._packetToError (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12)
+    --------------------
+    at Pool.query (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Pool.js:199:23)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:14:16
+    at new Promise (<anonymous>)
+    at Object.execute (M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:13:10)
+    at Object.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:38:13)
+    at step (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:33:23)
+    at Object.next (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:14:53)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:4:12)
+----------------------------------------------------------------------------------------------------
+Thu, 04 Jan 2024 20:34:52 GMT
+catchAll error
+Stack: Error: ER_BAD_FIELD_ERROR: Unknown column 'phone' in 'where clause'
+    at Query.Sequence._packetToError (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:527:28)
+    at Socket.emit (node:domain:475:12)
+    --------------------
+    at Pool.query (M:\G\תכנות\React\Barber Shop\Backend\node_modules\mysql\lib\Pool.js:199:23)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:14:16
+    at new Promise (<anonymous>)
+    at Object.execute (M:\G\תכנות\React\Barber Shop\Backend\src\2-utils\dal.ts:13:10)
+    at Object.<anonymous> (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:38:13)
+    at step (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:33:23)
+    at Object.next (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:14:53)
+    at M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (M:\G\תכנות\React\Barber Shop\Backend\src\5-logic\auth-logic.ts:4:12)
+----------------------------------------------------------------------------------------------------

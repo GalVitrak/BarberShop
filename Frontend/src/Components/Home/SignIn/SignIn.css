@@ -1,0 +1,31 @@
+.SignIn {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.phoneInput {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 15%;
+}
+
+.phoneInputHidden {
+  display: none;
+}
+
+h3 {
+  position: absolute;
+  top: 25%;
+}
+
+.Error {
+  color: red;
+  margin-top: 10px;
+  position: absolute;
+}
